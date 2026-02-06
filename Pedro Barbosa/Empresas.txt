@@ -1,0 +1,21 @@
+Empresas:
+LocalWeb
+Albert Einstein
+RedeDor
+Suporte de Domingo - Empresa do Professor
+
+
+Anotações:
+Azure Devops
+GitHub
+Copilot AI
+Subdivisão dentro do GitHub para códigos específicos
+Tree JS
+Criar conta GitHub
+Product Owner
+Produt Manager
+Boas Praticas de Programação
+Analista de Mudanças IOT - Analista de Processos
+Knock Soc - Profissão
+TERA
+Service Desk

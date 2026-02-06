@@ -1,0 +1,24 @@
+Login para quem não tem conta Microsoft Ativa:
+.\aluno -> enter
+
+Caminho para abrir vscode:
+Pasta no gerenciador de arquivos -> Clicar no diretório -> cmd -> enter -> digitar "code ."
+
+tecla Windows -> visual studio code
+caso não seja a pasta correta, ir em file, open folder, e escolher a pasta correta
+
+
+regra de negócio
+n8n - software de automação
+
+
+f string = utilizar print(f'{conteúdo das variaveis})
+input = serve para receber dados do usuário para dentro do sistema
+
+Para comentar grandes partes de texto, utilizar ctrl + ;
+
+Para rodar códigos com input, é necessário ir no símbolo de play e clicar no drop down e depois clicar em run python file, assim você poderá utilizar o input corretamente
+
+Para revelar o tipo de variável que você está utilizando, utilize type(variavel) para exibir o tipo
+
+Para conversão de variáveis, utilizar o tipo do dado + Parênteses entre a variável que deve ser convertida: Ex: int(), str(), float(), bool()...

@@ -1,0 +1,5 @@
+Comandos VS Code:
+Control B para fechar aba de arquivos
+Control ; para comentar em qualquer linguagem do VS Code
+Gerenciador de pacotes
+Code Runner
