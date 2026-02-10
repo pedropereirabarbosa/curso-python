@@ -1,0 +1,5 @@
+NomeUsuario = input("Insira seu nome: ")
+idadeUsuario = input("Insira sua idade: ")
+alturaUsuario = input("Insira sua altura: ")
+cidadeUsuario = input("Insira sua cidade: ")
+print(f'{NomeUsuario}, tem {idadeUsuario}ç anos, mede {alturaUsuario}, e mora em {cidadeUsuario}.' )
