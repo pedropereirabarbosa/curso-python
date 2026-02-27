@@ -1,0 +1,8 @@
+Pacotes Standards: Pacotes que vem junto com o software
+
+Pip = Gerenciador de pacotes do python
+
+PyPI = armazenador de pacotes do python online
+
+
+
