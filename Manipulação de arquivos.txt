@@ -1,0 +1,5 @@
+Manipulação de arquivos
+
+W = Write/Escrever
+R = Leitura do arquivo
+X = Execução do arquivo
