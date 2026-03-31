@@ -95,15 +95,46 @@
 #     print(f"O nome {nome_buscado}  não está na lista")
 
 # 11
-list_products = []
-for produto in range(1,6):
-    new_product = input("Digite um novo produto para a lista: ")
-    list_products.append(new_product)
-retira_produto = input("Digite o produto a ser retirado: ")
-for produto in list_products:
-    if retira_produto == produto:
-        list_products.remove(produto)
-    else:
-        print(f"Não encontramos este produto na lista.")
-        break       
-print(list_products)
+# list_products = []
+# for produto in range(1,6):
+#     new_product = input("Digite um novo produto para a lista: ")
+#     list_products.append(new_product)
+# retira_produto = input("Digite o produto a ser retirado: ")
+# for produto in list_products:
+#     if produto == retira_produto:
+#         list_products.remove(produto)
+#     elif len(produto) == len(list_products):
+#         print(f"Não encontramos este produto na lista.")
+#         break
+# print(list_products)
+
+# 12
+# soma_total = 0
+# numero_usuario = 0
+# cont = 0
+# while True:
+#     cont += 1
+#     numero_usuario = int(input("Digite um numero para a soma: "))
+#     soma_total += numero_usuario
+#     if soma_total > 100:
+#         break
+# print(f"O numero total de numeros digitados foi de {cont}")
+# print(f"A soma final foi de {soma_total}")
+
+# 13
+# lista_alunos = []
+# lista_notas = []
+# nota = ''
+# nota_media = 0
+
+# for indice in range(1,6):
+#     lista_alunos.append(input("Digite o nome do aluno: "))
+#     nota = input("Digite a nota  do aluno: ")
+#     nota_media += int(nota)
+#     lista_notas.append(nota)
+# for indice in range(0,5):
+#     print(f"{lista_alunos[indice]}, {lista_notas[indice]} ")
+# print(nota_media/len(lista_notas))
+
+# 14
+
