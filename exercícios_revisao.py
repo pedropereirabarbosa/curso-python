@@ -136,5 +136,53 @@
 #     print(f"{lista_alunos[indice]}, {lista_notas[indice]} ")
 # print(nota_media/len(lista_notas))
 
-# 14
+# # 14
+# lista_notas = []
+# lista_aprovados = []
+# nota = ''
+# soma_notas = 0.0
+# media_turma = 0.0
+# notasAprovadas = 0.0
+# for i in range(1,7):
+#     nota = (input(f'Digite a {i}ª nota para inserir na lista: '))
+#     lista_notas.append(float(nota))
+# print(lista_notas)
+# for var in range(len(lista_notas)):
+#     soma_notas += lista_notas[var]
+#     print(soma_notas)
+#     if lista_notas[var] >= 6:
+#         notasAprovadas += 1
+#         lista_aprovados.append(var)
+#     if len(lista_aprovados) == 0:
+#         lista_aprovados.append('Nenhum aluno foi aprovado')
+# media_turma = soma_notas/len(lista_notas)
+# # media das notas
+# print(media_turma)
+# # quantas notas ficaram acima da media
+# print(notasAprovadas)
+# # quais são as notas aprovadas
+# print(lista_aprovados)
 
+# # 15
+# lista_frases = []
+# for frase in range(0,3):
+#     lista_frases.append(input('Digite uma frase para ser gravada no arquivo: '))
+# print(lista_frases)
+# arquivo = open("frases.txt", "w")
+# for index in lista_frases:
+#     arquivo.write(f"Frase 1: {index}\n")
+# arquivo.close()
+
+# 16
+# with open("frases.txt") as list:
+#     for line in list:
+#         print(line.strip())
+
+# 17
+# contador = 0
+# with open("frases.txt") as list:
+#     for line in list:
+#         contador += 1
+# print(contador)
+
+# 18
