@@ -1,0 +1,11 @@
+Linguagem de alto nível = mais próximo da linguagem humano
+baixo nível = mais próximo da linguagem de maquina
+
+lowcode = coda pouco 
+vibecode = Cloude, Xane, Lovable, Superbase
+
+PEPs (Python Enhancement Proposals)
+
+MongoDB
+
+SQL e NoSQL(JSON)
