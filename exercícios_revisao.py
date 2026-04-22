@@ -184,5 +184,3 @@
 #     for line in list:
 #         contador += 1
 # print(contador)
-
-# 18
