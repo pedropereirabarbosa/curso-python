@@ -1,4 +1,5 @@
-# # Média com quantidade definida pelo usuário - 03
+# 03 -  Média Com Quantidade Definida Pelo Usuário - 03
+
 # notas = []
 # qtd = int(input("Digite quantas notas você deseja informar: "))
 # for i in range(1, qtd):
@@ -9,7 +10,8 @@
 # print(f"A média de notas foi {sum(notas) / len(notas)}")
 
 
-# # 04
+# 04 - Maior e Menor Número Digitado
+
 # numeros = []
 # for i in range(1,11):
 #     numero = int(input("Digite um numero: "))
@@ -23,7 +25,8 @@
 #         valor_menor = numero
 # print(f"O maior valor é {valor_maior} e o menor é {valor_menor}")
 
-# # 05
+# # 05 - Cadastro de Nomes em Lista
+
 # lista_nome = []
 # for i in range(1,6):
 #     nome = input("Digite seu nome: ")
@@ -32,7 +35,8 @@
 # print(len(lista_nome))
 # print(f"O primeiro nome é {lista_nome[0]} e o último é {lista_nome[len(lista_nome) -1]}")
 
-# # 06
+# 06 - Separação de Números Pares e Ímpares
+
 # lista_num = []
 # for i in range(1,11):
 #     num = int(input("Digite um numero: "))
@@ -50,7 +54,8 @@
 # print(list_im)
 # print(list_par)
 
-# 07
+# 07 - Menu Simples com Repetição
+
 # name_list = []
 # print("Menu")
 # print("1 - Cadastro de Nome")
@@ -71,19 +76,22 @@
 #     else:
 #         print("Opção Incorreta. Tente Novamente.")
 
-# 08
+# 08 - Contador de Letras
+
 # palavra = input("Digite uma palavra: ")
 # print(f"A quantidade total de letras é {len(palavra)}")
 # print(f"A quantidade de vezes que a letra a aparece é {palavra.count("a")}")
 
-# 09
+# 09 - Tabuada com Vários Numeros
+
 # num_inicial = int(input("Digite um numero inicial: "))
 # num_final= int(input("Digite um numero final: "))
 # for num in range(num_inicial, num_final+1):
 #     for multiplicação in range(1,6):
 #         print(num*multiplicação)
 
-# 10
+# 10 - Lista com Nomes e Busca
+
 # list_of_names = []
 # for name in range(1,7):
 #     nome = input("Insira um nome na lista: ")
@@ -94,7 +102,8 @@
 # else:
 #     print(f"O nome {nome_buscado}  não está na lista")
 
-# 11
+# 11 - Remoção de Itens de uma Lista
+
 # list_products = []
 # for produto in range(1,6):
 #     new_product = input("Digite um novo produto para a lista: ")
@@ -108,7 +117,8 @@
 #         break
 # print(list_products)
 
-# 12
+# 12 - Soma com Condição de Parada
+
 # soma_total = 0
 # numero_usuario = 0
 # cont = 0
@@ -121,7 +131,8 @@
 # print(f"O numero total de numeros digitados foi de {cont}")
 # print(f"A soma final foi de {soma_total}")
 
-# 13
+# 13 - Registro de Alunos
+
 # lista_alunos = []
 # lista_notas = []
 # nota = ''
@@ -136,7 +147,8 @@
 #     print(f"{lista_alunos[indice]}, {lista_notas[indice]} ")
 # print(nota_media/len(lista_notas))
 
-# # 14
+# # 14 - Relatório de Notas Acima da Média
+
 # lista_notas = []
 # lista_aprovados = []
 # nota = ''
@@ -163,7 +175,8 @@
 # # quais são as notas aprovadas
 # print(lista_aprovados)
 
-# # 15
+# # 15 - Gravar Frases em um Arquivo
+
 # lista_frases = []
 # for frase in range(0,3):
 #     lista_frases.append(input('Digite uma frase para ser gravada no arquivo: '))
@@ -173,14 +186,62 @@
 #     arquivo.write(f"Frase 1: {index}\n")
 # arquivo.close()
 
-# 16
+# 16 - Leitura de Arquivo e Exibição de Conteúdo
+
 # with open("frases.txt") as list:
 #     for line in list:
 #         print(line.strip())
 
-# 17
+# 17 - Contador de Linhas em um Arquivo
+
 # contador = 0
 # with open("frases.txt") as list:
 #     for line in list:
 #         contador += 1
 # print(contador)
+
+# 18 - Cadastro de Tarefas em Arquivo
+
+# user_tasks = []
+# for task in range(0,5):
+#     user_tasks.append(input("Insira uma tarefa nova: "))
+# arquivo = open("tarefas.txt", "w")
+# for archive_task in user_tasks:
+#     arquivo.write(f"{archive_task}\n")
+# arquivo.close()
+# print(f"5 tarefas foram salvas com sucesso.")
+
+# 19 - Leitura e Numeração de Linhas
+
+# with open("tarefas.txt", "r") as archive:
+#     content = archive.readlines()
+# for line, task in enumerate(content, start=1):
+#     print(line,task)
+
+# 20 - Sistema de Notas com Menu
+
+# user_selection = 0
+# students_grades = []
+# while True:
+#     print(f"1 - Adicionar Nota\n 2 - Mostrar Notas\n 3 - Mostrar Média\n 4 - Salvar Notas em Arquivo\n 5 - Sair\n")
+#     user_selection = int(input(f"Insira uma das opções acima: "))
+#     if user_selection == 1:
+#         grade = float(input("Insira a nota: "))
+#         if grade > 10.0 or grade < 0:
+#             print("Insira a nota novamente, pois notas maiores que 10 ou menores que 0 não serão permitidas.")
+#         else:
+#             students_grades.append(grade)
+#     elif user_selection == 2:
+#         print(f"{students_grades}\n")
+#     elif user_selection == 3:
+#         mean = 0
+#         for grade in students_grades:
+#             mean += grade
+#         print(mean/len(students_grades))
+#     elif user_selection == 4:
+#         archive = open("Notas Salvas.txt", "w")
+#         for grade in students_grades:
+#             archive.write(f"{grade}\n")
+#         archive.close()
+#     elif user_selection == 5:
+#         break
