@@ -245,3 +245,67 @@
 #         archive.close()
 #     elif user_selection == 5:
 #         break
+
+# 21 - Lista com Números Únicos
+
+# numbers = [1,2,3,4,5,6,7,8]
+# # Loop para pedir 8 numeros para o usuario
+# for number in range(0,8):
+#     # Input que será inserido numa nova lista
+#     new_number = int(input("Insira um novo numero na lista: "))
+#     # Loop percorrendo a lista de numeros para comparação
+#     for index, number in enumerate(numbers, start=1):
+#         # Caso o numero inserido seja igual ao valor na lista
+#         if new_number == number:
+#             print("Repetido")
+#             break
+#         # Caso o numero seja diferente do valor na lista e a lista esteja no final
+#         elif new_number != number and index == len(numbers):
+#             numbers.append(new_number)
+#             break
+# print(numbers)
+
+# # 22 - Mostrar uma lista na ordem inversa da inserção
+# user_list = []
+# for item in range(0,6):
+#     user_list.append(int(input("Insira um número na lista: ")))
+# #Loop para percorrer a lista ao contrário, iniciando no final e terminando no inicio com decréscimo indicado no for
+# for index in range(5,-1,-1):
+#     print(user_list[index])
+
+# 23 - Mostrar palavras com mais de 5 letras
+# word_list = []
+# for word in range(0,7):
+#     word_list.append(input("Insira uma palavra na lista: "))
+# for inserted_word in word_list:
+#     if len(inserted_word) > 5:
+#         print(inserted_word)
+
+# 24 - Relatório de arquivo com filtro
+# numbers_sum = 0
+# pair_numbers = 0
+
+# with open("numeros.txt", "r") as archive:
+#     for line_number, line in enumerate(archive, start=1):
+#         actual_num = int(line.strip())
+
+#         numbers_sum += actual_num
+
+#         if line_number == 1:
+#             major_number = actual_num
+#             minor_number = actual_num
+#         else:
+#             if actual_num > major_number:
+#                 major_number = actual_num
+#             if actual_num < minor_number:
+#                 minor_number = actual_num
+
+#         if actual_num % 2 == 0:
+#             pair_numbers += 1
+
+#         print(actual_num)
+
+# print(f"A soma dos números é: {numbers_sum}.")
+# print(f"O maior número é: {major_number}.")
+# print(f"O menor número é: {minor_number}.")
+# print(f"A quantidade de números pares é de: {pair_numbers}.")
