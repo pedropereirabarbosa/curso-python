@@ -309,3 +309,16 @@
 # print(f"O maior número é: {major_number}.")
 # print(f"O menor número é: {minor_number}.")
 # print(f"A quantidade de números pares é de: {pair_numbers}.")
+
+# 25 - Diário de Bordo do Usuário
+# counter = 0
+# archive = open("diário.txt", "w")
+# while True:
+#     frase = input("Digite uma frase para escrita em arquivo.\nDigite fim para encerrar o programa: ")
+#     if frase == "fim":
+#         archive.close()
+#         print(f"O numero de frases inseridas é de {counter}.")
+#         break
+#     else:
+#         archive.write(frase + "\n")
+#         counter += 1
